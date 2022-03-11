@@ -21,6 +21,3 @@ __asm__ ("syscall"
 "d" (l));
 return (1);
 }
-© 2022 GitHub, Inc.
-Terms
-
