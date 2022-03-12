@@ -9,11 +9,11 @@ int main(void)
 	int i = 0;
 	if (i < 10)
 	{
-		printf('i');
+		printf("i, %d");
 		i++;
 	}
 	else{
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
