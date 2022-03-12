@@ -7,11 +7,18 @@
 int main(void)
 {
 
-char letters = 'a', 'A';
+char small = 'a';
 
-while (letters <= 'z', 'Z')
+while (small <= 'z')
 {
-	putchar(letters++);
+	putchar(small);
+	small++;
+}
+small = 'A'
+while (small <= 'Z')
+{
+	putchar(small);
+	small++;
 }
 putchar('\n');
 return (0);
