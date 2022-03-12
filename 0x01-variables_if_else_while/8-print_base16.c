@@ -9,13 +9,13 @@ int main(void)
 
 int num = 0;
 
-while ( <= 9)
+while (num <= 9)
 {
 	putchar(num);
 	num++;
 }
 num = 'a';
-while (small <= 'f')
+while (num <= 'f')
 {
 	putchar(num);
 	num++;
