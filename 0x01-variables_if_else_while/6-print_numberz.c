@@ -4,15 +4,16 @@
  * to print all single digit of base 10
  * Return: 0
  */
+
 int main(void)
 {
 int num = 48;
 
-while (num < 57)
+while (num <= 57)
 {
-	putchar("%d", num);
+	putchar(num);
 	num++;
 }
-putchar("\n");
+putchar('\n');
 return (0):
 }
