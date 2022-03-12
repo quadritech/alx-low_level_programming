@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
  *main - entry point
- *Description: print alphabets in lower case except q&e
+ *Description: print alphabets in lower case
  *Return: 0
  */
 int main(void)
 {
 
-char lettiers = 'a';
+char letters = 'a';
 
 while (letters <= 'z')
 {
@@ -17,6 +17,7 @@ while (letters <= 'z')
 	else
 	{
 	putchar(letters++);
+	}
 }
 putchar('\n');
 return (0);
