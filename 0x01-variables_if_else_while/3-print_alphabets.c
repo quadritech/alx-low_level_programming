@@ -14,7 +14,7 @@ while (small <= 'z')
 	putchar(small);
 	small++;
 }
-small = 'A'
+small = 'A';
 while (small <= 'Z')
 {
 	putchar(small);
