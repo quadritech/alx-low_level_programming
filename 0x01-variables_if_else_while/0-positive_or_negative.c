@@ -4,13 +4,12 @@
 /**
  *main - entry point
  *
- *  to print whether the number stored in the variable n is positive or negative
+ *  to print whether number is positive or negative
  *Return: 0
  */
 int main(void)
 {
 	int n;
-
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
