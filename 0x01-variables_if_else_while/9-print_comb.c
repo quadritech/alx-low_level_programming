@@ -14,7 +14,7 @@ while (small <= 9)
 	putchar(small);
 	small++;
 }
-small = ', ';
+small = ',';
 small = ' ';
 while (small <= 9)
 {
