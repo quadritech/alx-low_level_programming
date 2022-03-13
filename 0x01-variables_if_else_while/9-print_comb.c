@@ -11,7 +11,7 @@ int small = '0';
 
 while (small <= '9')
 {
-	putchar(small);	
+	putchar(small);
 	if (small != '9')
 	{
 	putchar(',');
