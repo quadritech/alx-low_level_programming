@@ -12,13 +12,8 @@ int small = '0';
 while (small <= '9')
 {
 	putchar(small);
-	small++;
-}
-small = ',';
-small = ' ';
-while (small <= '9')
-{
-	putchar(small);
+	putchar(,);
+	putchar( );
 	small++;
 }
 putchar('\n');
