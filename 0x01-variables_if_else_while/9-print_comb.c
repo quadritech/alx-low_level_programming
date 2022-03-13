@@ -12,10 +12,17 @@ int small = '0';
 while (small <= '9')
 {
 	putchar(small);
+	
+	if (small != '9')
 	putchar(',');
 	putchar(' ');
 	small++;
 }
+else
+{
+put $
+}
+
 putchar('\n');
 return (0);
 }
