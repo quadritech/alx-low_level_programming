@@ -1,4 +1,4 @@
-#include <stdio.c>
+#include <stdio.h>
 /**
  * main - entry point
  * Description: to print 3 digit combination
