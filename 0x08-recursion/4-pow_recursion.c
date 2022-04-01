@@ -18,4 +18,4 @@ return (x * _pow_recursion(x, y - 1)); /* Recursive call*/
 
 else
 return (1);
-}:x
+}
